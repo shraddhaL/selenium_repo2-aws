@@ -1,8 +1,7 @@
 pipeline {
      agent any
 	 tools {
-        maven 'maven3.6' 
-	jdk 'jdk1.8'
+        maven 'Maven' 
     }
 	 environment {
         containerName = "shraddhal/seleniumtest2"
